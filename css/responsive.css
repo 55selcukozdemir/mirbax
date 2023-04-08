@@ -1,0 +1,15 @@
+@media only screen and (max-width: 767px) {
+    #communication {
+        display: none;
+    }
+
+    .navbar-responsive {
+        top: 0px;
+    }
+    .carouser {
+        height: 100vh;
+    }
+    .carousel-item img{
+        height: 100vh;
+    }
+}

@@ -1,0 +1,140 @@
+:root {
+    --blue: rgb(2, 0, 36);
+    --blue-gradient: linear-gradient(to left, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    --blue-light: rgba(2, 0, 36, 0.503);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* components start */
+
+
+.button {
+    /* color: var(--blue);
+    color: var(--blue-gradient); */
+    color: rgb(2, 0, 36);
+    color: linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 10%, rgba(0, 212, 255, 1) 100%);
+    font-size: 1rem;
+}
+
+.custom-button {
+    /* color: var(--blue);
+    color: var(--blue-gradient); */
+    background-image: rgb(2, 0, 36);
+    background-image: var(--blue-gradient);
+    color: white;
+    border-radius: 0.6rem;
+    height: 3rem;
+    width: 8rem;
+    border: 0;
+    font-size: 1rem;
+}
+
+/* .button i {
+    color: rgb(2,0,36);
+    color:linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 10%, rgba(0, 212, 255, 1) 100%);
+   
+} */
+
+/* components end */
+
+
+main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* communication start */
+
+.communication {
+    height: 5vh;
+    background-color: rgb(226, 226, 226);
+    padding-top: 10px;
+}
+
+.social {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.social li {
+    flex-basis: 50px;
+}
+
+.contact {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    gap: 2rem
+}
+
+.contact li {
+    flex-basis: 150px;
+}
+
+.contact li a {
+    text-decoration: none;
+}
+
+/* communication end */
+
+
+/* navbar start */
+.navbar {
+    background-color: var(--blue-light);
+    min-height: 10vh;
+    position: absolute;
+    width: 100%;
+    top: 5vh;
+    z-index: 5;
+}
+
+.nav-item {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.navbar-nav {
+    font-weight: bold;
+}
+
+.nav-link {
+    color: white;
+}
+
+.logo {
+    height: 3rem;
+}
+
+/* navbar end */
+
+
+/* slideshow start */
+.carouser {
+    height: 95vh;
+}
+
+.carousel-item img {
+    image-rendering: crisp-edges;
+    height: 95vh;
+}
+
+.carousel-center {
+    bottom: 23rem;
+}
+.carousel-title {
+    font-size: 6rem
+}
+
+/* slideshow end */
+
+.about {
+    height: 100vh;
+}
