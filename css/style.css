@@ -34,6 +34,7 @@ body {
     font-size: 1rem;
 }
 
+
 /* .button i {
     color: rgb(2,0,36);
     color:linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 10%, rgba(0, 212, 255, 1) 100%);
@@ -127,7 +128,30 @@ main {
 }
 
 .carousel-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     bottom: 23rem;
+}
+
+
+.carousel-button {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    background-color: white;
+    border-radius: 0.6rem;
+    height: 3rem;
+    width: 8rem;
+    border: 0; 
+    font-size: 1rem;
+    font-weight: bold;
+}
+.carousel-button a {
+    align-: center;
+   margin-top: 15px;
+    
 }
 .carousel-title {
     font-size: 6rem
